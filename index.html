@@ -140,44 +140,46 @@
     
     
     <article
-  id="post-hexo_01"
+  id="post-hello-world"
   class="article article-type-post"
   itemscope
   itemprop="blogPost"
   data-scroll-reveal
 >
   <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2021/05/17/hello-world/"
+    >Hello World</a> 
+</h2>
+ 
+
+      
+    </header>
      
     <div class="article-meta">
-      <a href="/2021/05/16/hexo_01/" class="article-date">
-  <time datetime="2021-05-16T15:52:52.726Z" itemprop="datePublished">2021-05-16</time>
+      <a href="/2021/05/17/hello-world/" class="article-date">
+  <time datetime="2021-05-17T14:12:45.927Z" itemprop="datePublished">2021-05-17</time>
 </a>    
     </div>
       
     <div class="article-entry" itemprop="articleBody">
        
-  <h5 id="初始化hexo"><a href="#初始化hexo" class="headerlink" title="初始化hexo"></a>初始化hexo</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init myblog(文件夹名称，随便啥名字都行)</span><br><span class="line">cd myblog //进入这个myblog文件夹</span><br><span class="line">nmp install</span><br></pre></td></tr></table></figure>
-<h5 id="1-新建完成后，指定文件夹目录下有"><a href="#1-新建完成后，指定文件夹目录下有" class="headerlink" title="1,新建完成后，指定文件夹目录下有"></a>1,新建完成后，指定文件夹目录下有</h5><ul>
-<li><p>node_modules：依赖包</p>
-</li>
-<li><p>public：存放生成的页面</p>
-</li>
-<li><p>scaffolds：生成文章的一些文档</p>
-</li>
-<li><p>source：用来存放你的文章</p>
-</li>
-<li><p>themes：主题</p>
-</li>
-<li><p>_config.yml：博客的配置文件</p>
-</li>
-</ul>
-<h5 id="2-打开hexo的服务，在浏览器输入local-4000就可以看到你生成的博客了"><a href="#2-打开hexo的服务，在浏览器输入local-4000就可以看到你生成的博客了" class="headerlink" title="2,打开hexo的服务，在浏览器输入local:4000就可以看到你生成的博客了"></a>2,打开hexo的服务，在浏览器输入local:4000就可以看到你生成的博客了</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">lizhuo@DESKTOP-U1I3Q6F MINGW64 ~/myblog</span><br><span class="line">cd myblog</span><br><span class="line">hexo g</span><br><span class="line">hexo server</span><br></pre></td></tr></table></figure>
+  <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
-<h5 id="3-使用ctrl-c可以把服务关掉"><a href="#3-使用ctrl-c可以把服务关掉" class="headerlink" title="3,使用ctrl+c可以把服务关掉"></a>3,使用ctrl+c可以把服务关掉</h5><h5 id="4-安装ayer"><a href="#4-安装ayer" class="headerlink" title="4,安装ayer"></a>4,安装ayer</h5><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://gitee.com/mirrors/ayer.git themes/ayer(注意把下载下来的主题放在themes目录下)</span><br></pre></td></tr></table></figure>
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<h5 id="5-修改"><a href="#5-修改" class="headerlink" title="5,修改"></a>5,修改</h5><p>将博客根目录下的_config.yml里的theme值修改成ayer</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme：ayer(以前的值是landscape)</span><br></pre></td></tr></table></figure>
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
 
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
  
       <!-- reward -->
       
